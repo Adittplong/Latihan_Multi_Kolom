@@ -1,0 +1,64 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: coral;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    z-index: 2;
+}
+
+header h1{
+    margin-left: 50px;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+}
+
+.container h2{
+    font-size: 15px;
+}
+
+.kolom{
+    width: 400px;
+    float: left;
+}
+.menu{
+    background-color: aqua;
+    margin-left: 10px;
+    width: 290px;
+    padding: 10px;
+    float: left;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    padding: 10px;
+    display: block;
+}
+
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: white ;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: black;
+}
